@@ -1,4 +1,13 @@
-# React + Vite
+# Chore Calendar
+
+A full-stack team chore calendar app built with React and Vite.
+
+## Changes
+
+### Loading Spinner (`index.html`)
+Added a CSS-only loading spinner as fallback content inside `#root` that displays before React mounts. It uses the `:empty` pseudo-class so it shows automatically when `#root` has no children and disappears the moment React renders the app — no JavaScript required.
+
+---
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
